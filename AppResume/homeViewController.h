@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "profilePictureClass.h"
+@interface homeViewController : UIViewController
 
-@interface ViewController : UIViewController
-
+@property (strong, nonatomic) profilePictureClass *profilePictureView;
 
 @end
 
